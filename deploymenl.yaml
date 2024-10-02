@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app2048
+  labels:
+    app: app2048
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: app2048
+  template:
+    metadata:
+      labels:
+        app: app2048
+    spec:
+      containers:
+        - name: devopshint
+          image: 058264111032.dkr.ecr.ap-south-1.amazonaws.com/devopshint:1.2
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
