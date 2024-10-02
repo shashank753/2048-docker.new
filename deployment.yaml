@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app2048
   labels:
-    app: app2048
+    app: app2048 
 spec:
   replicas: 1 
   selector:
