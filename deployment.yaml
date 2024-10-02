@@ -8,7 +8,7 @@ spec:
   replicas: 1 
   selector:
     matchLabels:
-      app: app2048
+      app: app2048 
   template:
     metadata:
       labels:
