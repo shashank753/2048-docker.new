@@ -13,7 +13,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  namespace: app2048
+  namespace: kube-system
   name: ingress-2048
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
