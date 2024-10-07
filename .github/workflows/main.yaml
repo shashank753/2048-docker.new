@@ -43,4 +43,4 @@ jobs:
     
     - name: Deploy to EKS on 
       run: |
-        kubectl apply -f main.yaml
+        kubectl apply -f deploy.yaml
