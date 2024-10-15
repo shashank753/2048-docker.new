@@ -4,7 +4,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends nginx unzip curl ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf 
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf  
 
 WORKDIR /var/www/html/
 
