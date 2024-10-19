@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: devopshint
-        image: 058264111032.dkr.ecr.ap-south-1.amazonaws.com/devopshint:1.2
+        image: 495599769576.dkr.ecr.ap-south-1.amazonaws.com/devopshint:1.2
         imagePullPolicy: Always
         name: app-2048
         ports:
